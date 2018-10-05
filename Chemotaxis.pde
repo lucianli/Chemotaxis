@@ -28,7 +28,7 @@ Bacteria[] colony;
  	Bacteria() {
  		myX = (int)(Math.random()*301)+150;
  		myY = (int)(Math.random()*301)+150;
- 		bacteriaColor = color((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255));
+ 		bacteriaColor = color((int)(Math.random()*200)+55, (int)(Math.random()*200)+55, (int)(Math.random()*200)+55, 1);
  	}
  	void walk() {
  		myX = myX + (int)(Math.random()*7)-3;
