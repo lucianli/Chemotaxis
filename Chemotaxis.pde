@@ -15,6 +15,13 @@ Bacteria[] colony;
  		colony[i].walk();	
  	}   
  }  
+ void mousePressed()
+ {
+ 	for (int i=0; i<colony.length; i++) {
+ 		background(75,75,75);
+ 		colony[i] = new Bacteria();
+ 	}
+ }
  class Bacteria    
  {     
  	int myX, myY, bacteriaColor;
